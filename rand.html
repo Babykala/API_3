@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        padding:10px;
+        margin:10px;
+        background-color:azure;
+    }
+    h1{
+        background-color: cadetblue;
+        padding:20px
+    }
+    .body{
+        padding:20px
+    }
+
+    #string{
+        
+        color:green;
+        width:800px;
+        height:50px
+    }
+
+    .flip{
+        font-size: large;
+        font-weight: bold;
+        font-family: cursive;
+        background-color: aqua;
+        padding:10px;
+    }
+
+    
+</style>
+<body>
+    <div class="main">
+       <h1>Ciprand</h1>
+       <div class="body">
+        Random string generator API
+           <h3>Parameters :</h3>
+           <ul>
+               <li>len => Length of the strings (default 10)</li>
+               <li> count => Number of random strings to be generated (Default 1)</li>
+           </ul>
+           <div>Length:<input type="text" id="len"> </div><br/>
+        <div>Count:<input type="text" id="count"></div><br/>
+        <button id="json">Click to generate</button><br/><br/>
+        <div><b>Strings:</b><input type="text" id="string"></input></div>
+       </div>
+        
+    </div>
+<hr>
+
+<br/><br/>
+<div class="flip">Imgflip API</div><br/><br/>
+    <button id="meme">Click</button> &nbsp; <button id="prev">Previous</button> &nbsp; <button id="next">Next</button><br/><br/>
+   <br/><br/>
+   <b id="name" style="padding-Left:200px;font-size:larger"></b><br/><br/>
+    <img src="" alt="" id="mem"><br/>
+  
+</body>
+<script src="rand.js"></script>
+</html>
